@@ -43,7 +43,7 @@ void displayElectionAnimation() {
         printf("                    Welcome to the\n\n");
         printf("                    %s\n", frames[i]);
         fflush(stdout);
-        //usleep(300000); // 300ms delay
+        //Sleep(300000); // 300ms delay
     }
     
     // Clear and show full ASCII art
@@ -72,8 +72,8 @@ void displayMainMenu() {
     clearScreen();
     printf("\n");
     printf("╔══════════════════════════════════════════════════════════════════╗\n");
-    printf("║                        ELECTION SYSTEM                          ║\n");
-    printf("║                          MAIN MENU                              ║\n");
+    printf("║                        ELECTION SYSTEM                           ║\n");
+    printf("║                          MAIN MENU                               ║\n");
     printf("╠══════════════════════════════════════════════════════════════════╣\n");
     printf("║                                                                  ║\n");
     printf("║  1. Voter Login                                                  ║\n");
